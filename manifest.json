@@ -1,0 +1,9 @@
+{
+  "name": "SmartRepair",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/LucasFin/SmartRepair",
+  "description": "Repairs everything the moment you open a crafting station, and lets later stations repair gear from earlier ones.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2350"
+  ]
+}
