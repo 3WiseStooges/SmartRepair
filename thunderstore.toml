@@ -10,7 +10,7 @@ namespace = "LJIndustries"
 name = "SmartRepair"
 versionNumber = "1.0.0"
 description = "Repairs everything the moment you open a crafting station, and lets later stations repair gear from earlier ones."
-websiteUrl = "https://github.com/LucasFin/SmartRepair"
+websiteUrl = "https://github.com/3WiseStooges/SmartRepair"
 containsNsfwContent = false
 
 [package.dependencies]

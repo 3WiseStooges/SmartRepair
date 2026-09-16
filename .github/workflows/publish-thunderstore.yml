@@ -69,7 +69,7 @@ jobs:
           latest = None
           url = "https://thunderstore.io/api/experimental/package/LJIndustries/SmartRepair/"
           headers = {
-              "User-Agent": "SmartRepair-CI/1.0 (+https://github.com/LucasFin/SmartRepair)",
+              "User-Agent": "SmartRepair-CI/1.0 (+https://github.com/3WiseStooges/SmartRepair)",
               "Accept": "application/json",
           }
           last_error = None
