@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1
+
+- New icon.
+- Trimmed the readme.
+
 ## 1.0.0
 
 First release.
@@ -18,5 +23,5 @@ First release.
   rules would otherwise double an already hot scan. The cache expires when `ObjectDB` is
   replaced or grows, which covers mods appending recipes.
 - Falls back to SmartRepair's own copy of the vanilla repair rules if a future update renames
-  `InventoryGui.CanRepair`, and logs a warning when it does. Tekla's AutoRepair broke because it
-  called `HaveRepairableItems` and `RepairOneItem` directly and both are private now.
+  `InventoryGui.CanRepair`, and logs a warning when it does. `CanRepair`, `HaveRepairableItems`
+  and `RepairOneItem` are all private, so nothing here calls them by hand.

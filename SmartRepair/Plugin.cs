@@ -14,7 +14,7 @@ namespace SmartRepair
     {
         public const string ModGuid = "com.ljindustries.valheim.smartrepair";
         public const string ModName = "SmartRepair";
-        public const string ModVersion = "1.0.0";
+        public const string ModVersion = "1.0.1";
 
         internal static ManualLogSource Log;
 

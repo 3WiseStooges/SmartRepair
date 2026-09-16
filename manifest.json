@@ -1,6 +1,6 @@
 {
   "name": "SmartRepair",
-  "version_number": "1.0.0",
+  "version_number": "1.0.1",
   "website_url": "https://github.com/3WiseStooges/SmartRepair",
   "description": "Repairs everything the moment you open a crafting station, and lets later stations repair gear from earlier ones.",
   "dependencies": [

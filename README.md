@@ -7,9 +7,7 @@ Valheim repairs one item per button press, at the one station that made it. Smar
 the whole job the moment you walk up to a station, and lets your newest station cover
 everything the older ones could.
 
-A replacement for [Tekla's AutoRepair](https://thunderstore.io/c/valheim/p/Tekla/AutoRepair/),
-which has not been updated since 2021 and no longer works. This is a fresh build against the
-current game, not a patched copy.
+Built fresh against the current game, for the Unity 6 update.
 
 Client-side only. Durability lives on your own character, so nothing here talks to the server
 and nobody else in the world needs the mod.
@@ -42,8 +40,8 @@ pass off.
 Through r2modman or Thunderstore Mod Manager, or drop `SmartRepair.dll` into
 `BepInEx/plugins`.
 
-Remove **Tekla-AutoRepair** if you still have it installed. Both mods patch the same repair
-path and Tekla's calls two `InventoryGui` methods that are private in the current game.
+Uninstall any other auto-repair mod first. Two of them patching the same repair path will
+fight each other.
 
 ## Config
 
@@ -87,7 +85,3 @@ requirement anyway. Repairs at the item's own station always use vanilla's rule 
 - Roof and fire requirements still apply. Pressing use on a station that fails those checks
   repairs nothing, same as vanilla.
 - Repair stays free, as it is in vanilla.
-
-## Credits
-
-Tekla, for AutoRepair and the idea of doing this on interact.

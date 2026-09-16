@@ -8,7 +8,7 @@ repository = "https://thunderstore.io"
 # Must match your Thunderstore team name exactly
 namespace = "LJIndustries"
 name = "SmartRepair"
-versionNumber = "1.0.0"
+versionNumber = "1.0.1"
 description = "Repairs everything the moment you open a crafting station, and lets later stations repair gear from earlier ones."
 websiteUrl = "https://github.com/3WiseStooges/SmartRepair"
 containsNsfwContent = false
